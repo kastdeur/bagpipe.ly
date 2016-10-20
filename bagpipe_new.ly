@@ -286,6 +286,7 @@ gripthrwd = { \pgrace { G32[ d G c] } }
 thrwe     = { \pgrace { e32[ a f a] } }
 wthrwe    = { \pgrace { e32[ d f d] } }
 thrwf     = { \pgrace { f32[ e g e] } }
+hvthrwd   = { \gripthrwd}
 
 % Birls
 birl  = { \pgrace { a32[ G a G] } }
@@ -329,6 +330,7 @@ cad      = { \pgrace { \stemspace #'(0 . 0.5) g32[ e8 d32] } }
 hcad     = { \pgrace { \stemspace #'(0 . 0.5) g32[ e8] } }
 tcad     = { \pgrace { e8[ d32] } }
 thcad    = { \pgrace { e8 } }
+rodin    = { \bgrip }
 % This is the same as thrwe
 dre      = { \pgrace { e32[ a f a] } }
 % This is the same as thrwf

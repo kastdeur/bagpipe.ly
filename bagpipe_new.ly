@@ -142,6 +142,10 @@ pgrace = #(define-music-function (notes) (ly:music?) #{
   \revert Score.Stem.beamlet-default-length
 #})
 
+% Echos
+echoA = { \pgrace{ g32 } }
+echog = { \pgrace{ A16 } }
+
 % Single grace notes
 grG = { \pgrace { G32 } }
 gra = { \pgrace { a32 } }

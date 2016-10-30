@@ -143,7 +143,7 @@ pgrace = #(define-music-function (notes) (ly:music?) #{
 #})
 
 % Echos
-echoA = { \pgrace{ g32 } }
+echoA = { \pgrace{ g16 } }
 echog = { \pgrace{ A16 } }
 
 % Single grace notes

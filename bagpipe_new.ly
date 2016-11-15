@@ -142,7 +142,7 @@ pgrace = #(define-music-function (notes) (ly:music?) #{
   \revert Score.Stem.beamlet-default-length
 #})
 
-% Echos
+% Echo beats
 echoG = { \pgrace { G16 } }
 echoa = { \pgrace { a16 } }
 echob = { \pgrace { b16 } }
@@ -320,6 +320,36 @@ Gtaor   = { \pgrace { d32[ G e] } }
 taoramb = { \pgrace { G32[ d G b e] } }
 taoramc = { \pgrace { G32[ d G c e] } }
 taoramd = { \pgrace { G32[ d G c d e] } }
+
+% Peles
+pella = { \pgrace { g32[ a e a G] } }
+pelb = { \pgrace { g32[ b e b G] } }
+pelc = { \pgrace { g32[ c e c G] } }
+peld = { \pgrace { g32[ d e d G] } }
+pele = { \pgrace { g32[ e f e G] } }
+pelf = { \pgrace { g32[ f g f e] } }
+lpeld = { \pgrace { g32[ d e d c] } }
+
+% Thumb Peles
+tpella = { \pgrace { A32[ a e a G] } }
+tpelb = { \pgrace { A32[ b e b G] } }
+tpelc = { \pgrace { A32[ c e c G] } }
+tpeld = { \pgrace { A32[ d e d G] } }
+tpele = { \pgrace { A32[ e f e G] } }
+tpelf = { \pgrace { A32[ f g f e] } }
+tpelhg = { \pgrace { A32[ g A g f] } }
+ltpeld = { \pgrace { A32[ d e d c] } }
+
+% Half Peles
+hpella = { \pgrace { a32[ e a G] } }
+hpelb = { \pgrace { b32[ e b G] } }
+hpelc = { \pgrace { c32[ e c G] } }
+hpeld = { \pgrace { d32[ e d G] } }
+hpele = { \pgrace { e32[ f e G] } }
+hpelf = { \pgrace { f32[ g f e] } }
+hpelhg = { \pgrace { g32[ A g f] } }
+lhpeld = { \pgrace { d32[ e d c] } }
+
 
 % Special piobaireachd notations
 % Crunluaths
